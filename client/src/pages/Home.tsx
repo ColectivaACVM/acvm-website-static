@@ -142,31 +142,13 @@ export default function Home() {
             </p>
           </div>
 
-          {/* Three Circles */}
-          <div className="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto mb-12">
-            {[
-              {
-                title: t('org.ctr'),
-                desc: t('org.ctr_desc'),
-                icon: '🔗',
-              },
-              {
-                title: t('org.cf'),
-                desc: t('org.cf_desc'),
-                icon: '💧',
-              },
-              {
-                title: t('org.cs'),
-                desc: t('org.cs_desc'),
-                icon: '🦉',
-              },
-            ].map((circle, idx) => (
-              <div key={idx} className="card-soft text-center">
-                <div className="text-4xl mb-4">{circle.icon}</div>
-                <h3 className="text-lg font-bold text-primary mb-3">{circle.title}</h3>
-                <p className="text-foreground/80">{circle.desc}</p>
-              </div>
-            ))}
+          {/* Three Circles Diagram */}
+          <div className="flex justify-center mb-12">
+            <img
+              src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663286151170/xikztfDeIfSmjEbb.png"
+              alt="Círculos de Organización"
+              className="w-full max-w-2xl h-auto"
+            />
           </div>
 
           <div className="max-w-3xl mx-auto">
