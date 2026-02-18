@@ -1,7 +1,7 @@
-import { useLanguage } from '@/contexts/LanguageContext';
 import Navigation from '@/components/Navigation';
 import { ArrowRight, Droplet, Leaf, Users, MapPin } from 'lucide-react';
 import { useState } from 'react';
+import { useLanguage } from '@/contexts/LanguageContext';
 
 export default function Home() {
   const { t } = useLanguage();
@@ -151,11 +151,7 @@ export default function Home() {
             />
           </div>
 
-          <div className="max-w-3xl mx-auto">
-            <p className="text-center text-foreground/80 leading-relaxed">
-              {t('org.principles')}
-            </p>
-          </div>
+
         </div>
       </section>
 
@@ -182,14 +178,12 @@ export default function Home() {
               {
                 title: t('units.rcu.title'),
                 desc: t('units.rcu.desc'),
-                image:
-                  'https://private-us-east-1.manuscdn.com/sessionFile/wsa61KxqRktTrs8oBYrWMR/sandbox/74Qb5sLre7Kuh23gsAc2Dz-img-2_1770410524000_na1fn_aGVyby1jb21tdW5pdHk.png?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvd3NhNjFLeHFSa3RUcnM4b0JZcldNUi9zYW5kYm94Lzc0UWI1c0xyZTdLdWgyM2dzQWMyRHotaW1nLTJfMTc3MDQxMDUyNDAwMF9uYTFmbl9hR1Z5YnkxamIyMXRkVzVwZEhrLnBuZz94LW9zcy1wcm9jZXNzPWltYWdlL3Jlc2l6ZSx3XzE5MjAsaF8xOTIwL2Zvcm1hdCx3ZWJwL3F1YWxpdHkscV84MCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc5ODc2MTYwMH19fV19&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=oZXRtXRyTA4BS~h0yPZbce76z78jpzsakVSDk8BzH0Dl~Sq0unRaSs5EeeMi0MDga2k8SYviUIu-Vhyas23mIK1a6ZlqYVSqmLXGUXUgtWtuxx7cdZQe7nJA-~TAduYDZjljGyp~fueR5-TwVX~V0fpZP8LocPXIoFRaePIqyHbJCpQ7At508z5VgRx-s9csiggM1V7tKWw34BQ9GJY6Rt5gUU~fsz2RY-fZmoSnEXT5jfrzmFkNQ7Wz1C1aPa5EUTqHrmSwCgPIzutKZe8hQBdTYGqbPB~n9QX7CzaHYNZr-qxdcHvA0DdBBIq3vVH2rr7wvWZ6-2aM0FDutMAlew__',
+                image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663286151170/dAZwABHgzDqulfNI.png',
               },
               {
                 title: t('units.ehvm.title'),
                 desc: t('units.ehvm.desc'),
-                image:
-                  'https://files.manuscdn.com/user_upload_by_module/session_file/310519663286151170/QasrkGaPXFLvdwlr.jpeg',
+                image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663286151170/WqHGaaAXhTwdEQlY.jpg',
               },
               {
                 title: t('units.prmrm.title'),
@@ -252,7 +246,7 @@ export default function Home() {
             </div>
             <div className="h-96 rounded-lg overflow-hidden shadow-lg">
               <img
-                src="https://private-us-east-1.manuscdn.com/sessionFile/wsa61KxqRktTrs8oBYrWMR/sandbox/74Qb5sLre7Kuh23gsAc2Dz-img-3_1770410536000_na1fn_aGVyby13YXRlcg.png?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvd3NhNjFLeHFSa3RUcnM4b0JZcldNUi9zYW5kYm94Lzc0UWI1c0xyZTdLdWgyM2dzQWMyRHotaW1nLTNfMTc3MDQxMDUzNjAwMF9uYTFmbl9hR1Z5YnkxM1lYUmxjZy5wbmc~eC1vc3MtcHJvY2Vzcz1pbWFnZS9yZXNpemUsd18xOTIwLGhfMTkyMC9mb3JtYXQsd2VicC9xdWFsaXR5LHFfODAiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3OTg3NjE2MDB9fX1dfQ__&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=JBElEw5sp5DaKmGX~1CkUe7lIdcYGV7qSIC~Nd0MbDWeQvO1RyFo5PctUickNomLY2-6B0k6D3jf94zu-yHEzqyWmO8apdBdYrWcW~i2-pGe6W4SVGW0Y~4Mvo17tqWcLEmoaMD1JhjpV3rUDPBr8l-IRG6XPq6OIxBJprmzFAqYdGrw8cboyFDxV9DKG2jIaCMlLBrbY4yq8ugJTNKXdqk725vFne7RWpAjaMcGVWW8kiWxSMydP4T20PAkiDXzGZ99L4pU1EG8haaceE3spy4g5Hty69R4n1rSosswGJHDvS4f2y7oPhNy3RuKaiuo6si5hY29BNdKd80t6jK2cg__"
+                src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663286151170/BnrTruMYdPrLZKKz.png"
                 alt="River"
                 className="w-full h-full object-cover"
               />
@@ -264,9 +258,9 @@ export default function Home() {
             <h3 className="text-xl font-bold text-primary mb-6">Aliados en el Territorio</h3>
             <div className="flex justify-center">
               <img
-                src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663286151170/tEvXWyAvfWgOHXpp.jpeg"
-                alt="Amigos Río Machuca"
-                className="h-16"
+                src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663286151170/WvmdEqNJoQqxAjAH.jpeg"
+                alt="Mapa Río Machuca"
+                className="w-full max-w-2xl h-auto"
               />
             </div>
           </div>
@@ -308,90 +302,31 @@ export default function Home() {
             {t('contact.title')}
           </h2>
 
-          <p className="text-lg text-center text-foreground/80 max-w-2xl mx-auto mb-12">
-            {t('contact.intro')}
-          </p>
-
-          <form
-            onSubmit={handleContactSubmit}
-            className="max-w-2xl mx-auto card-soft"
-          >
-            <div className="grid md:grid-cols-2 gap-6 mb-6">
-              <div>
-                <label className="block text-sm font-semibold text-foreground mb-2">
-                  {t('contact.name')}
-                </label>
-                <input
-                  type="text"
-                  required
-                  value={contactForm.name}
-                  onChange={(e) =>
-                    setContactForm({ ...contactForm, name: e.target.value })
-                  }
-                  className="w-full px-4 py-2 border border-border rounded-lg focus:outline-none focus:ring-2 focus:ring-primary"
-                />
-              </div>
-              <div>
-                <label className="block text-sm font-semibold text-foreground mb-2">
-                  {t('contact.email')}
-                </label>
-                <input
-                  type="email"
-                  required
-                  value={contactForm.email}
-                  onChange={(e) =>
-                    setContactForm({ ...contactForm, email: e.target.value })
-                  }
-                  className="w-full px-4 py-2 border border-border rounded-lg focus:outline-none focus:ring-2 focus:ring-primary"
-                />
-              </div>
-            </div>
-
-            <div className="mb-6">
-              <label className="block text-sm font-semibold text-foreground mb-2">
-                {t('contact.interest')}
-              </label>
-              <select
-                value={contactForm.interest}
-                onChange={(e) =>
-                  setContactForm({ ...contactForm, interest: e.target.value })
-                }
-                className="w-full px-4 py-2 border border-border rounded-lg focus:outline-none focus:ring-2 focus:ring-primary"
+          <div className="max-w-2xl mx-auto space-y-8">
+            <div className="card-soft text-center">
+              <p className="text-lg text-foreground/80 mb-6">
+                {t('contact.intro')}
+              </p>
+              <a
+                href="https://tally.so/r/zxqzlq"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block btn-primary bg-primary text-white hover:opacity-90 px-8 py-3 rounded-lg font-semibold"
               >
-                <option value="">Selecciona una opción</option>
-                <option value="funding">{t('contact.interest_funding')}</option>
-                <option value="collaboration">
-                  {t('contact.interest_collaboration')}
-                </option>
-                <option value="partnership">
-                  {t('contact.interest_partnership')}
-                </option>
-                <option value="other">{t('contact.interest_other')}</option>
-              </select>
+                Completa el formulario
+              </a>
             </div>
-
-            <div className="mb-6">
-              <label className="block text-sm font-semibold text-foreground mb-2">
-                {t('contact.message')}
-              </label>
-              <textarea
-                required
-                value={contactForm.message}
-                onChange={(e) =>
-                  setContactForm({ ...contactForm, message: e.target.value })
-                }
-                rows={5}
-                className="w-full px-4 py-2 border border-border rounded-lg focus:outline-none focus:ring-2 focus:ring-primary"
-              />
+            
+            <div className="card-soft text-center">
+              <h3 className="text-lg font-bold text-primary mb-4">O envía un correo a:</h3>
+              <a
+                href="mailto:colectivavallemachuca@gmail.com"
+                className="text-primary hover:underline text-lg font-semibold"
+              >
+                colectivavallemachuca@gmail.com
+              </a>
             </div>
-
-            <button
-              type="submit"
-              className="w-full btn-primary bg-primary text-white hover:opacity-90"
-            >
-              {t('contact.send')}
-            </button>
-          </form>
+          </div>
         </div>
       </section>
 
@@ -410,7 +345,7 @@ export default function Home() {
               <ul className="text-sm space-y-2 opacity-90">
                 <li>Mercado de la Tierra</li>
                 <li>Red Colaborativa Ubuntu</li>
-                <li>Espacio Holístico</li>
+                <li>Salud Holística</li>
                 <li>Regeneración Microcuenca</li>
               </ul>
             </div>

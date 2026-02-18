@@ -41,7 +41,7 @@ export const translations: Record<Language, Record<string, string>> = {
     // Purpose, Vision, Mission
     'pvm.title': 'Propósito · Visión · Misión',
     'pvm.purpose_title': 'Propósito',
-    'pvm.purpose': 'Coordinar, auditar, captar recursos, fortalecer y redistribuir los esfuerzos del territorio, impulsando iniciativas que promuevan el bien común, la regeneración socioambiental y el fortalecimiento comunitario.',
+    'pvm.purpose': 'Coordinar y auditar proyectos, captar recursos, fortalecer e impulsar las iniciativas del territorio que promuevan el bien común, la regeneración socioambiental y el fortalecimiento comunitario.',
     'pvm.vision_title': 'Visión',
     'pvm.vision': 'Una biorregión regenerada, donde la gobernanza territorial integra dimensiones sociales, ambientales, culturales, económicas, espirituales y tecnológicas en armonía con la naturaleza y las comunidades.',
     'pvm.mission_title': 'Misión',
@@ -56,7 +56,7 @@ export const translations: Record<Language, Record<string, string>> = {
     'org.cf_desc': 'Administra, recibe y distribuye fondos con auditoría participativa.',
     'org.cs': 'Círculo Saberes',
     'org.cs_desc': 'Media ante conflictos, trae una visión mayor y aporta consejo para el bien mayor.',
-    'org.principles': 'Estos círculos operan bajo principios de transparencia, equidad y corresponsabilidad, asegurando que todas las decisiones reflejen el bien común.',
+    'org.principles': '',
     
     // Units
     'units.title': 'Unidades del Colectivo',
@@ -66,13 +66,13 @@ export const translations: Record<Language, Record<string, string>> = {
     'units.mdlt.desc': 'Espacio de comercialización agroecológica y regenerativa, intercambio cultural y dinamización local. Opera de forma continua fortaleciendo los circuitos cortos de producción y consumo.',
     
     'units.rcu.title': 'Red Colaborativa Ubuntu',
-    'units.rcu.desc': 'Planta de proceso colectivo para el aprovechamiento de residuos orgánicos. Impulsa la innovación y desarrollo de productos locales con valor agregado, prolongando su vida útil y aportando alto valor nutricional.',
+    'units.rcu.desc': 'Planta de procesamiento de alimentos y subproductos de los productos orgánicos comercializados en el MDLT o de los productores locales y asociados. Impulsa la innovación y desarrollo de productos locales con valor agregado, prolongando su vida útil y aportando alto valor nutricional.',
     
-    'units.ehvm.title': 'Espacio Holístico Valle Machuca',
-    'units.ehvm.desc': 'Iniciativa dedicada al fomento, cuidado y restauración de la salud y bienestar individual y colectivo. Comprende desarrollo personal, espiritual y sanación mediante terapias complementarias y productos medicinales naturales.',
+    'units.ehvm.title': 'Salud Holística',
+    'units.ehvm.desc': 'Iniciativa dedicada al fomento, cuidado y restauración de la salud y bienestar individual y colectivo. Comprende desarrollo personal, espiritual y sanación mediante charlas, información, en el espacio comunitario del MDLT, oferta de terapias complementarias y productos medicinales naturales, y eventualmente un espacio físico diseñado para este fin.',
     
-    'units.prmrm.title': 'Proyecto de Regeneración de la Microcuenca del Río Machuca',
-    'units.prmrm.desc': 'Iniciativa territorial destinada a restaurar suelos, aguas y ecosistemas mediante la creación de un bosque comestible y biodiverso, promoviendo la transición hacia sistemas regenerativos.',
+    'units.prmrm.title': 'Proyecto de Regeneración de la Subcuenca del Río Machuca',
+    'units.prmrm.desc': 'Iniciativa Comunitaria para la Gestión del Agua, Territorio y Producción Regenerativa en la Microcuenca del Río Machuca, Cuenca Río Jesús María, orientada a fortalecer la protección del recurso hídrico, la biodiversidad y los medios de vida locales mediante una gestión integrada y corresponsable entre actores comunitarios, productivos e institucionales en este territorio.',
     
     // Territory
     'territory.title': 'Territorio: Microcuenca Río Machuca',
@@ -82,7 +82,7 @@ export const translations: Record<Language, Record<string, string>> = {
     'territory.biodiversity': 'La biodiversidad del territorio es irreemplazable. Proteger y restaurar los ecosistemas es central para la resiliencia de la región frente al cambio climático.',
     
     // Contact
-    'contact.title': 'Contacto',
+    'contact.title': '¿Quieres ser parte de la ACVM?',
     'contact.intro': 'Nos gustaría conocerte. Si te interesa colaborar, invertir o simplemente aprender más sobre nuestro trabajo, contáctanos.',
     'contact.name': 'Nombre',
     'contact.email': 'Correo electrónico',
@@ -96,7 +96,7 @@ export const translations: Record<Language, Record<string, string>> = {
     'contact.interest_other': 'Otro',
     
     // Values
-    'values.title': 'Objetivos y Valores',
+    'values.title': 'Principios y Valores',
     'values.common_good': 'Bien común y propósito colectivo',
     'values.regeneration': 'Regeneración y equilibrio ecológico',
     'values.solidarity': 'Solidaridad y cooperación',
@@ -138,7 +138,7 @@ export const translations: Record<Language, Record<string, string>> = {
     // Purpose, Vision, Mission
     'pvm.title': 'Purpose · Vision · Mission',
     'pvm.purpose_title': 'Purpose',
-    'pvm.purpose': 'To coordinate, audit, capture resources, strengthen, and redistribute territorial efforts, driving initiatives that promote the common good, socio-environmental regeneration, and community strengthening.',
+    'pvm.purpose': 'To coordinate and audit projects, capture resources, strengthen and drive territorial initiatives that promote the common good, socio-environmental regeneration, and community strengthening.',
     'pvm.vision_title': 'Vision',
     'pvm.vision': 'A regenerated bioregion where territorial governance integrates social, environmental, cultural, economic, spiritual, and technological dimensions in harmony with nature and communities.',
     'pvm.mission_title': 'Mission',
@@ -153,7 +153,7 @@ export const translations: Record<Language, Record<string, string>> = {
     'org.cf_desc': 'Administers, receives, and distributes funds with participatory audit.',
     'org.cs': 'Knowledge Circle',
     'org.cs_desc': 'Mediates conflicts, brings a greater vision, and provides counsel for the greater good.',
-    'org.principles': 'These circles operate under principles of transparency, equity, and shared responsibility, ensuring that all decisions reflect the common good.',
+    'org.principles': '',
     
     // Units
     'units.title': 'Collective Units',
@@ -163,13 +163,13 @@ export const translations: Record<Language, Record<string, string>> = {
     'units.mdlt.desc': 'Space for agroecological and regenerative commercialization, cultural exchange, and local dynamization. Operates continuously strengthening short production and consumption circuits.',
     
     'units.rcu.title': 'Red Colaborativa Ubuntu (Ubuntu Collaborative Network)',
-    'units.rcu.desc': 'Collective processing plant for organic waste utilization. Drives innovation and development of local products with added value, extending their shelf life and providing high nutritional value.',
+    'units.rcu.desc': 'Food processing plant and by-products of organic products commercialized in the MDLT or from local and associated producers. Drives innovation and development of local products with added value, extending their shelf life and providing high nutritional value.',
     
-    'units.ehvm.title': 'Espacio Holístico Valle Machuca (Holistic Space)',
-    'units.ehvm.desc': 'Initiative dedicated to promoting, caring for, and restoring individual and collective health and well-being. Includes personal development, spiritual work, and healing through complementary therapies and natural medicinal products.',
+    'units.ehvm.title': 'Salud Holística (Holistic Health)',
+    'units.ehvm.desc': 'Initiative dedicated to promoting, caring for, and restoring individual and collective health and well-being. Includes personal development, spiritual work, and healing through talks, information, in the MDLT community space, offering complementary therapies and natural medicinal products, and eventually a physical space designed for this purpose.',
     
-    'units.prmrm.title': 'Proyecto de Regeneración de la Microcuenca del Río Machuca (Watershed Regeneration Project)',
-    'units.prmrm.desc': 'Territorial initiative aimed at restoring soils, waters, and ecosystems through the creation of an edible and biodiverse forest, promoting transition toward regenerative systems.',
+    'units.prmrm.title': 'Proyecto de Regeneración de la Subcuenca del Río Machuca (Watershed Regeneration Project)',
+    'units.prmrm.desc': 'Community Initiative for Water Management, Territory and Regenerative Production in the Río Machuca Microwatershed, Río Jesús María Watershed, aimed at strengthening the protection of water resources, biodiversity, and local livelihoods through integrated and shared responsibility management among community, productive, and institutional actors in this territory.',
     
     // Territory
     'territory.title': 'Territory: Río Machuca Watershed',
@@ -179,7 +179,7 @@ export const translations: Record<Language, Record<string, string>> = {
     'territory.biodiversity': 'The territory\'s biodiversity is irreplaceable. Protecting and restoring ecosystems is central to regional resilience in the face of climate change.',
     
     // Contact
-    'contact.title': 'Contact',
+    'contact.title': 'Want to be part of ACVM?',
     'contact.intro': 'We\'d love to hear from you. If you\'re interested in collaborating, investing, or simply learning more about our work, get in touch.',
     'contact.name': 'Name',
     'contact.email': 'Email',
