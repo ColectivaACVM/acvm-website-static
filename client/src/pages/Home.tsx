@@ -143,15 +143,13 @@ export default function Home() {
           </div>
 
           {/* Three Circles Diagram */}
-          <div className="flex justify-center mb-12">
+          <div className="flex justify-center mb-4">
             <img
               src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663286151170/xikztfDeIfSmjEbb.png"
               alt="Círculos de Organización"
               className="w-full max-w-2xl h-auto"
             />
           </div>
-
-
         </div>
       </section>
 
@@ -177,7 +175,7 @@ export default function Home() {
               {
                 title: t('units.prmrm.title'),
                 desc: t('units.prmrm.desc'),
-                image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663286151170/FxFRGyyxxJyzrpRI.jpeg',
+                image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663286151170/DhrFPyxFcrYfYXQZ.jpg',
               },
               {
                 title: t('units.rcu.title'),
@@ -258,9 +256,9 @@ export default function Home() {
               <img src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663286151170/PMYxNaPcgfqTpxiJ.jpeg" alt="Municipalidad de San Mateo" className="h-16 object-contain" />
               <img src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663286151170/zWFsCTuRPXqIOtkl.png" alt="Amigos Río Machuca" className="h-16 object-contain" />
               <img src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663286151170/TuGgqwYBTVFtjFJD.png" alt="CATIE" className="h-16 object-contain" />
-              <img src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663286151170/FxFRGyyxxJyzrpRI.jpeg" alt="Mercado de la Tierra" className="h-16 object-contain" />
+              <img src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663286151170/ZzpiBYjyZPUDjcob.png" alt="Mercado de la Tierra" className="h-16 object-contain" />
               <img src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663286151170/meiqAbWeISAKvjfb.png" alt="Bloom" className="h-16 object-contain" />
-              <img src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663286151170/jAauyIrvYxnlDPyO.webp" alt="iNaturalist" className="h-16 object-contain" />
+              <img src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663286151170/lMWXpKndsKJDYcgl.png" alt="iNaturalist" className="h-16 object-contain" />
             </div>
           </div>
         </div>
@@ -307,12 +305,12 @@ export default function Home() {
                 {t('contact.intro')}
               </p>
               <a
-                href="https://tally.so/r/zxqzlq"
+                href={t('contact.form_link')}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block btn-primary bg-primary text-white hover:opacity-90 px-8 py-3 rounded-lg font-semibold"
               >
-                Completa el formulario
+                {t('contact.form_button')}
               </a>
             </div>
             

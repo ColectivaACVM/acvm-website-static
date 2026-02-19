@@ -95,6 +95,8 @@ export const translations: Record<Language, Record<string, string>> = {
     'contact.interest_collaboration': 'Colaboración',
     'contact.interest_partnership': 'Alianza',
     'contact.interest_other': 'Otro',
+    'contact.form_button': 'Completa el formulario',
+    'contact.form_link': 'https://tally.so/r/zxqzlq',
     
     // Values
     'values.title': 'Principios y Valores',
@@ -193,6 +195,8 @@ export const translations: Record<Language, Record<string, string>> = {
     'contact.interest_collaboration': 'Collaboration',
     'contact.interest_partnership': 'Partnership',
     'contact.interest_other': 'Other',
+    'contact.form_button': 'Fill out the form',
+    'contact.form_link': 'https://tally.so/r/aQ606W',
     
     // Values
     'values.title': 'Principles and Values',
