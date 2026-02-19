@@ -172,8 +172,12 @@ export default function Home() {
               {
                 title: t('units.mdlt.title'),
                 desc: t('units.mdlt.desc'),
-                image:
-                  'https://files.manuscdn.com/user_upload_by_module/session_file/310519663286151170/LPKpjnFUTVUgxlhJ.png',
+                image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663286151170/ZPEOQKordZwDawmN.jpeg',
+              },
+              {
+                title: t('units.prmrm.title'),
+                desc: t('units.prmrm.desc'),
+                image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663286151170/FxFRGyyxxJyzrpRI.jpeg',
               },
               {
                 title: t('units.rcu.title'),
@@ -184,12 +188,6 @@ export default function Home() {
                 title: t('units.ehvm.title'),
                 desc: t('units.ehvm.desc'),
                 image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663286151170/WqHGaaAXhTwdEQlY.jpg',
-              },
-              {
-                title: t('units.prmrm.title'),
-                desc: t('units.prmrm.desc'),
-                image:
-                  'https://files.manuscdn.com/user_upload_by_module/session_file/310519663286151170/CHTYeABehKNMnYll.jpeg',
               },
             ].map((unit, idx) => (
               <div key={idx} className="card-soft overflow-hidden hover:shadow-lg transition-shadow">
@@ -246,22 +244,23 @@ export default function Home() {
             </div>
             <div className="h-96 rounded-lg overflow-hidden shadow-lg">
               <img
-                src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663286151170/BnrTruMYdPrLZKKz.png"
-                alt="River"
+                src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663286151170/dpzAqANacVzbEtJg.png"
+                alt="Mapa Río Machuca"
                 className="w-full h-full object-cover"
               />
             </div>
           </div>
 
           {/* Partner Organizations */}
-          <div className="max-w-3xl mx-auto text-center">
-            <h3 className="text-xl font-bold text-primary mb-6">Aliados en el Territorio</h3>
-            <div className="flex justify-center">
-              <img
-                src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663286151170/WvmdEqNJoQqxAjAH.jpeg"
-                alt="Mapa Río Machuca"
-                className="w-full max-w-2xl h-auto"
-              />
+          <div className="max-w-5xl mx-auto">
+            <h3 className="text-xl font-bold text-primary mb-8 text-center">Organizaciones Aliadas</h3>
+            <div className="flex flex-wrap justify-center items-center gap-8">
+              <img src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663286151170/PMYxNaPcgfqTpxiJ.jpeg" alt="Municipalidad de San Mateo" className="h-16 object-contain" />
+              <img src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663286151170/zWFsCTuRPXqIOtkl.png" alt="Amigos Río Machuca" className="h-16 object-contain" />
+              <img src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663286151170/TuGgqwYBTVFtjFJD.png" alt="CATIE" className="h-16 object-contain" />
+              <img src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663286151170/FxFRGyyxxJyzrpRI.jpeg" alt="Mercado de la Tierra" className="h-16 object-contain" />
+              <img src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663286151170/meiqAbWeISAKvjfb.png" alt="Bloom" className="h-16 object-contain" />
+              <img src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663286151170/jAauyIrvYxnlDPyO.webp" alt="iNaturalist" className="h-16 object-contain" />
             </div>
           </div>
         </div>
@@ -317,15 +316,7 @@ export default function Home() {
               </a>
             </div>
             
-            <div className="card-soft text-center">
-              <h3 className="text-lg font-bold text-primary mb-4">O envía un correo a:</h3>
-              <a
-                href="mailto:colectivavallemachuca@gmail.com"
-                className="text-primary hover:underline text-lg font-semibold"
-              >
-                colectivavallemachuca@gmail.com
-              </a>
-            </div>
+
           </div>
         </div>
       </section>
@@ -344,16 +335,16 @@ export default function Home() {
               <h4 className="font-bold mb-4">Iniciativas</h4>
               <ul className="text-sm space-y-2 opacity-90">
                 <li>Mercado de la Tierra</li>
+                <li>Regeneración de Microcuenca</li>
                 <li>Red Colaborativa Ubuntu</li>
                 <li>Salud Holística</li>
-                <li>Regeneración Microcuenca</li>
               </ul>
             </div>
             <div>
               <h4 className="font-bold mb-4">Contacto</h4>
               <p className="text-sm opacity-90">
-                Valle Machuca<br />
-                Costa Rica
+                colectivavallemachuca@gmail.com<br />
+                Valle Machuca, Costa Rica
               </p>
             </div>
           </div>

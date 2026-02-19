@@ -80,6 +80,7 @@ export const translations: Record<Language, Record<string, string>> = {
     'territory.water': 'El agua es el corazón del territorio. El Río Machuca y sus afluentes sustentan la biodiversidad, la agricultura regenerativa y el bienestar de las comunidades.',
     'territory.soil': 'Los suelos de Valle Machuca poseen potencial regenerativo excepcional. Nuestro trabajo busca restaurar su fertilidad y capacidad de captura de carbono.',
     'territory.biodiversity': 'La biodiversidad del territorio es irreemplazable. Proteger y restaurar los ecosistemas es central para la resiliencia de la región frente al cambio climático.',
+    'territory.allied_orgs': 'Organizaciones Aliadas',
     
     // Contact
     'contact.title': '¿Quieres ser parte de la ACVM?',
@@ -177,6 +178,7 @@ export const translations: Record<Language, Record<string, string>> = {
     'territory.water': 'Water is the heart of the territory. The Río Machuca and its tributaries sustain biodiversity, regenerative agriculture, and community well-being.',
     'territory.soil': 'The soils of Valle Machuca have exceptional regenerative potential. Our work seeks to restore their fertility and carbon capture capacity.',
     'territory.biodiversity': 'The territory\'s biodiversity is irreplaceable. Protecting and restoring ecosystems is central to regional resilience in the face of climate change.',
+    'territory.allied_orgs': 'Allied Organizations',
     
     // Contact
     'contact.title': 'Want to be part of ACVM?',
@@ -193,7 +195,7 @@ export const translations: Record<Language, Record<string, string>> = {
     'contact.interest_other': 'Other',
     
     // Values
-    'values.title': 'Objectives & Values',
+    'values.title': 'Principles and Values',
     'values.common_good': 'Common good and collective purpose',
     'values.regeneration': 'Regeneration and ecological balance',
     'values.solidarity': 'Solidarity and cooperation',
@@ -203,10 +205,9 @@ export const translations: Record<Language, Record<string, string>> = {
     'values.care': 'Care and integral well-being',
     'values.learning': 'Learning and continuous evolution',
     'values.peace': 'Culture of peace and shared responsibility',
-    'values.reciprocity': 'Interdependence and reciprocity with Earth',
+    'values.reciprocity': 'Interdependence and reciprocity with the Earth',
   },
 };
-
 export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const [language, setLanguage] = useState<Language>('es');
 
