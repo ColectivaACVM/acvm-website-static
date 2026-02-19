@@ -175,7 +175,7 @@ export default function Home() {
               {
                 title: t('units.prmrm.title'),
                 desc: t('units.prmrm.desc'),
-                image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663286151170/DhrFPyxFcrYfYXQZ.jpg',
+                image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663286151170/duqGuZzhsyuzffZR.webp',
               },
               {
                 title: t('units.rcu.title'),
@@ -251,14 +251,14 @@ export default function Home() {
 
           {/* Partner Organizations */}
           <div className="max-w-5xl mx-auto">
-            <h3 className="text-xl font-bold text-primary mb-8 text-center">Organizaciones Aliadas</h3>
+            <h3 className="text-xl font-bold text-primary mb-8 text-center">{t('territory.allied_orgs')}</h3>
             <div className="flex flex-wrap justify-center items-center gap-8">
-              <img src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663286151170/PMYxNaPcgfqTpxiJ.jpeg" alt="Municipalidad de San Mateo" className="h-16 object-contain" />
-              <img src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663286151170/zWFsCTuRPXqIOtkl.png" alt="Amigos Río Machuca" className="h-16 object-contain" />
-              <img src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663286151170/TuGgqwYBTVFtjFJD.png" alt="CATIE" className="h-16 object-contain" />
-              <img src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663286151170/ZzpiBYjyZPUDjcob.png" alt="Mercado de la Tierra" className="h-16 object-contain" />
-              <img src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663286151170/meiqAbWeISAKvjfb.png" alt="Bloom" className="h-16 object-contain" />
-              <img src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663286151170/lMWXpKndsKJDYcgl.png" alt="iNaturalist" className="h-16 object-contain" />
+              <img src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663286151170/usgHJCCGvQjZgqwq.png" alt="Mercado de la Tierra" className="h-20 object-contain" />
+              <img src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663286151170/zWFsCTuRPXqIOtkl.png" alt="Amigos Río Machuca" className="h-20 object-contain" />
+              <img src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663286151170/TuGgqwYBTVFtjFJD.png" alt="CATIE" className="h-20 object-contain" />
+              <img src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663286151170/PMYxNaPcgfqTpxiJ.jpeg" alt="Municipalidad de San Mateo" className="h-20 object-contain" />
+              <img src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663286151170/meiqAbWeISAKvjfb.png" alt="Bloom" className="h-20 object-contain" />
+              <img src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663286151170/TsERGIhfSJWzIiEZ.png" alt="iNaturalist" className="h-20 object-contain" />
             </div>
           </div>
         </div>
