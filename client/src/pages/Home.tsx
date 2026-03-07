@@ -45,12 +45,15 @@ export default function Home() {
           <div className="absolute inset-0 bg-black/30" />
         </div>
 
+        {/* Content Overlay */}
+        <div className="absolute inset-0 bg-black/25" />
+
         {/* Content */}
         <div className="container relative z-10 py-20 flex flex-col items-center text-center">
           <img
             src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663286151170/kCZSfJmgnFiDuOBz.png"
             alt="ACVM Logo"
-            className="h-24 w-24 mb-8"
+            className="h-24 w-24 mb-8 rounded-full shadow-lg"
           />
           <h1 className="text-4xl md:text-6xl font-bold text-white mb-4 drop-shadow-lg">
             {t('home.title')}
@@ -89,8 +92,6 @@ export default function Home() {
           </h2>
           <div className="max-w-3xl mx-auto space-y-6">
             <p className="text-lg text-foreground/80 leading-relaxed">{t('about.intro')}</p>
-            <p className="text-lg text-foreground/80 leading-relaxed">{t('about.mission_text')}</p>
-            <p className="text-lg text-foreground/80 leading-relaxed">{t('about.role')}</p>
           </div>
         </div>
       </section>
@@ -240,12 +241,13 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="h-96 rounded-lg overflow-hidden shadow-lg">
+            <div className="rounded-lg overflow-hidden shadow-lg">
               <img
-                src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663286151170/dpzAqANacVzbEtJg.png"
+                src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663286151170/PVjaJMdDBhLCQNVJ.jpeg"
                 alt="Mapa Río Machuca"
-                className="w-full h-full object-cover"
+                className="w-full h-auto"
               />
+              <p className="text-xs text-muted-foreground mt-3 text-center">Mapa adaptado por Yam Aisner - Elaborado para Amigos Río Machuca en Febrero de 2024</p>
             </div>
           </div>
 
