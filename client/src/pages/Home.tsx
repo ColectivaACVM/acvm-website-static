@@ -49,13 +49,21 @@ export default function Home() {
         <div className="absolute inset-0 bg-black/25" />
 
         {/* Content */}
-        <div className="container relative z-10 py-20 flex flex-col items-center text-center">
-          <img
-            src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663286151170/kCZSfJmgnFiDuOBz.png"
-            alt="ACVM Logo"
-            className="h-24 w-24 mb-8 rounded-full shadow-lg"
-          />
-          <h1 className="text-4xl md:text-6xl font-bold text-white mb-4 drop-shadow-lg">
+        <div className="container relative z-10 py-20 flex flex-col items-center justify-center text-center min-h-screen">
+          {/* Logo and Brand */}
+          <div className="flex flex-col items-center mb-12">
+            <img
+              src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663286151170/kCZSfJmgnFiDuOBz.png"
+              alt="ACVM Logo"
+              className="h-32 w-32 mb-6 rounded-full shadow-2xl"
+            />
+            <div className="text-center">
+              <h2 className="text-2xl md:text-3xl font-bold text-primary drop-shadow-lg">Colectiva</h2>
+              <p className="text-lg md:text-xl text-primary/80 drop-shadow-md">Valle Machuca</p>
+            </div>
+          </div>
+
+          <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 drop-shadow-lg max-w-4xl">
             {t('home.title')}
           </h1>
           <p className="text-xl md:text-2xl text-white/90 mb-8 drop-shadow-md max-w-2xl">
@@ -247,7 +255,7 @@ export default function Home() {
                 alt="Mapa Río Machuca"
                 className="w-full h-auto"
               />
-              <p className="text-xs text-muted-foreground mt-3 text-center">Mapa adaptado por Yam Aisner - Elaborado para Amigos Río Machuca en Febrero de 2024</p>
+              <p className="text-2xs text-muted-foreground mt-2 text-left">Mapa adaptado por Yam Aisner - Elaborado para Amigos Río Machuca en Febrero de 2024</p>
             </div>
           </div>
 
