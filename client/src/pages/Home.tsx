@@ -77,7 +77,9 @@ export default function Home() {
             {t('about.title')}
           </h2>
           <div className="max-w-3xl mx-auto space-y-6">
-            <p className="text-lg text-foreground/80 leading-relaxed">{t('about.intro')}</p>
+            {t('about.intro').split('\n').filter(Boolean).map((paragraph, idx) => (
+              <p key={idx} className="text-lg text-foreground/80 leading-relaxed">{paragraph}</p>
+            ))}
           </div>
         </div>
       </section>

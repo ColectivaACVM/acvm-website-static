@@ -34,7 +34,7 @@ export const translations: Record<Language, Record<string, string>> = {
     
     // About
     'about.title': '¿Quiénes somos?',
-    'about.intro': 'Somos una entidad colectiva sin fines de lucro, con estructura asociativa y colaborativa, orientada a la gestión y regeneración socioambiental en la biorregión de Valle Machuca.',
+    'about.intro': 'Somos una entidad colectiva sin fines de lucro, con estructura asociativa y colaborativa, orientada a la gestión y regeneración socioambiental en la biorregión de Valle Machuca.\n\nLa Colectiva actúa como una plataforma de gobernanza y gestión territorial, que integra diversas unidades de negocio y proyectos colectivos orientados al desarrollo integral y sostenible de la biorregión.',
     'about.mission_text': '',
     'about.role': '',
     
@@ -134,7 +134,7 @@ export const translations: Record<Language, Record<string, string>> = {
     
     // About
     'about.title': 'About Us',
-    'about.intro': 'We are a non-profit collective entity with an associative and collaborative structure, oriented toward socio-environmental management and regeneration in the Valle Machuca bioregion.',
+    'about.intro': 'We are a non-profit collective entity with an associative and collaborative structure, oriented toward socio-environmental management and regeneration in the Valle Machuca bioregion.\n\nThe Colectiva acts as a platform for governance and territorial management, integrating diverse business units and collective projects aimed at the comprehensive and sustainable development of the bioregion.',
     'about.mission_text': '',
     'about.role': '',
     

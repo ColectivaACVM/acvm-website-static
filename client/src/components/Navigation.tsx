@@ -33,18 +33,14 @@ export default function Navigation({ onNavigate }: NavigationProps) {
   return (
     <nav className="sticky top-0 z-50 bg-background border-b border-border shadow-sm">
       <div className="container flex items-center justify-between py-4">
-        {/* Logo */}
-        <div className="flex items-center gap-2">
+        {/* Hummingbird Icon */}
+        <button onClick={() => handleNavClick('home')} className="flex items-center">
           <img
-            src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663286151170/kCZSfJmgnFiDuOBz.png"
-            alt="ACVM Logo"
-            className="h-10 w-10"
+            src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663286151170/dsTPSjLGMBhFDvmU.jpeg"
+            alt="Colectiva Valle Machuca"
+            className="h-12 w-auto object-contain"
           />
-          <div className="hidden sm:block">
-            <h1 className="text-lg font-bold text-primary">ACVM</h1>
-            <p className="text-xs text-muted-foreground">Valle Machuca</p>
-          </div>
-        </div>
+        </button>
 
         {/* Desktop Navigation */}
         <div className="hidden lg:flex items-center gap-8">
