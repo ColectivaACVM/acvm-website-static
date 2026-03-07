@@ -29,65 +29,43 @@ export default function Home() {
       {/* Hero Section */}
       <section
         id="home"
-        className="relative min-h-screen flex items-center justify-center overflow-hidden"
+        className="relative flex flex-col overflow-hidden"
       >
-        {/* Background Image */}
-        <div
-          className="absolute inset-0 z-0"
-          style={{
-            backgroundImage:
-              'url(https://private-us-east-1.manuscdn.com/sessionFile/wsa61KxqRktTrs8oBYrWMR/sandbox/74Qb5sLre7Kuh23gsAc2Dz-img-1_1770410513000_na1fn_aGVyby1yZWdlbmVyYXRpb24.png?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvd3NhNjFLeHFSa3RUcnM4b0JZcldNUi9zYW5kYm94Lzc0UWI1c0xyZTdLdWgyM2dzQWMyRHotaW1nLTFfMTc3MDQxMDUxMzAwMF9uYTFmbl9hR1Z5YnkxeVpXZGxibVZ5WVhScGIyNC5wbmc~eC1vc3MtcHJvY2Vzcz1pbWFnZS9yZXNpemUsd18xOTIwLGhfMTkyMC9mb3JtYXQsd2VicC9xdWFsaXR5LHFfODAiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3OTg3NjE2MDB9fX1dfQ__&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=iWqeENG2hIu~vRq8d6gdR1k5nkLYscs8QxksnAy3SXhRViYUwMarOM2mKLiipKCcRLdqzxigoQ9RbSoHEXA6eT5J-8SwbY-a5fd13rlhjl9umBHW~UMrwMN~S0uYt7ZYlsLvnvGS~lEsa174I7TuwR8DFtTkpkEEUqFC1RUWdaErokZiewpTIZe3jskLoBX~EY~QAE3Y~smP2LsdXcZ6wDnzfaDdLBfffg7sFnbKLJmRsRYmO82d6MeRCvObwk1C~Soq1qmeh3RpvUaDGxAhHwE8oeN7oD19UYKMM9dA3FGDMKqbIOmOzAJIO77gcpup6FPw3RpGrE~k1mDTlh68Cg__)',
-            backgroundSize: 'cover',
-            backgroundPosition: 'center',
-          }}
-        >
-          {/* Overlay */}
-          <div className="absolute inset-0 bg-black/30" />
+        {/* Hero Image - Full Width */}
+        <div className="relative w-full">
+          <img
+            src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663286151170/VbDAZXFJNFHZKdNS.jpeg"
+            alt="Colectiva Valle Machuca"
+            className="w-full h-auto"
+          />
         </div>
 
-        {/* Content Overlay */}
-        <div className="absolute inset-0 bg-black/25" />
+        {/* Text Content Below Image */}
+        <div className="bg-gradient-to-b from-[#2a4a3a] to-[#1e3a2e] py-10 md:py-14">
+          <div className="container flex flex-col items-center text-center">
+            <p className="text-xl md:text-2xl text-white/90 mb-4 drop-shadow-md max-w-2xl font-medium">
+              {t('home.subtitle')}
+            </p>
+            <p className="text-base md:text-lg text-white/75 mb-8 max-w-3xl leading-relaxed">
+              {t('home.value_prop')}
+            </p>
 
-        {/* Content */}
-        <div className="container relative z-10 py-20 flex flex-col items-center justify-center text-center min-h-screen">
-          {/* Logo and Brand */}
-          <div className="flex flex-col items-center mb-12">
-            <img
-              src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663286151170/kCZSfJmgnFiDuOBz.png"
-              alt="ACVM Logo"
-              className="h-32 w-32 mb-6 rounded-full shadow-2xl"
-            />
-            <div className="text-center">
-              <h2 className="text-2xl md:text-3xl font-bold text-primary drop-shadow-lg">Colectiva</h2>
-              <p className="text-lg md:text-xl text-primary/80 drop-shadow-md">Valle Machuca</p>
+            {/* CTA Buttons */}
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <button
+                onClick={() => scrollToSection('mission')}
+                className="btn-primary bg-primary text-white flex items-center justify-center gap-2 hover:opacity-90"
+              >
+                {t('home.cta_model')}
+                <ArrowRight size={20} />
+              </button>
+              <button
+                onClick={() => scrollToSection('units')}
+                className="btn-secondary border-white/60 text-white hover:bg-white/10"
+              >
+                {t('home.cta_initiatives')}
+              </button>
             </div>
-          </div>
-
-          <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 drop-shadow-lg max-w-4xl">
-            {t('home.title')}
-          </h1>
-          <p className="text-xl md:text-2xl text-white/90 mb-8 drop-shadow-md max-w-2xl">
-            {t('home.subtitle')}
-          </p>
-          <p className="text-lg text-white/80 mb-12 max-w-3xl leading-relaxed drop-shadow-md">
-            {t('home.value_prop')}
-          </p>
-
-          {/* CTA Buttons */}
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button
-              onClick={() => scrollToSection('mission')}
-              className="btn-primary bg-primary text-white flex items-center justify-center gap-2 hover:opacity-90"
-            >
-              {t('home.cta_model')}
-              <ArrowRight size={20} />
-            </button>
-            <button
-              onClick={() => scrollToSection('units')}
-              className="btn-secondary border-white text-white"
-            >
-              {t('home.cta_initiatives')}
-            </button>
           </div>
         </div>
       </section>
