@@ -235,7 +235,7 @@ export default function Home() {
                 alt="Mapa Río Machuca"
                 className="w-full h-auto"
               />
-              <p className="text-2xs text-muted-foreground mt-2 text-left">Mapa adaptado por Yam Aisner - Elaborado para Amigos Río Machuca en Febrero de 2024</p>
+              <p className="text-xs text-muted-foreground mt-2 text-left">Mapa adaptado por Yam Aisner - Elaborado para Amigos Río Machuca en Febrero de 2024</p>
             </div>
           </div>
 

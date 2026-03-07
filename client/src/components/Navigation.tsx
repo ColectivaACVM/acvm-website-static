@@ -32,18 +32,14 @@ export default function Navigation({ onNavigate }: NavigationProps) {
 
   return (
     <nav className="sticky top-0 z-50 bg-background border-b border-border shadow-sm">
-      <div className="container flex items-center justify-between py-4">
-        {/* Hummingbird Icon */}
-        <button onClick={() => handleNavClick('home')} className="flex items-center">
-          <img
-            src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663286151170/dsTPSjLGMBhFDvmU.jpeg"
-            alt="Colectiva Valle Machuca"
-            className="h-12 w-auto object-contain"
-          />
+      <div className="container flex items-center py-4">
+        {/* Logo/Brand - Left Side */}
+        <button onClick={() => handleNavClick('home')} className="flex items-center flex-shrink-0">
+          <span className="text-lg font-bold text-primary">ACVM</span>
         </button>
 
-        {/* Desktop Navigation */}
-        <div className="hidden lg:flex items-center gap-8">
+        {/* Desktop Navigation - Center */}
+        <div className="hidden lg:flex items-center gap-12 flex-1 ml-16">
           {navItems.map((item) => (
             <button
               key={item.id}
@@ -55,8 +51,8 @@ export default function Navigation({ onNavigate }: NavigationProps) {
           ))}
         </div>
 
-        {/* Language Toggle & Mobile Menu */}
-        <div className="flex items-center gap-4">
+        {/* Language Toggle & Mobile Menu - Right Side */}
+        <div className="flex items-center gap-4 ml-auto">
           <div className="flex gap-2 bg-muted rounded-lg p-1">
             <button
               onClick={() => setLanguage('es')}
