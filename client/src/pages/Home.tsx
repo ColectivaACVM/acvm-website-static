@@ -34,7 +34,7 @@ export default function Home() {
         {/* Hero Image - Full Width */}
         <div className="relative w-full">
           <img
-            src="https://d2xsxph8kpxj0f.cloudfront.net/310519663286151170/etSZxs9xpWM6YpNhjY5Rgo/hero-banner-smaller-logo-YGoAavaqztiYVG3TEvKMHx.webp"
+            src="https://d2xsxph8kpxj0f.cloudfront.net/310519663286151170/etSZxs9xpWM6YpNhjY5Rgo/hero-banner-smaller-v2-Zk8jCfJxjU2jdo6dahzuAb.webp"
             alt="Colectiva Valle Machuca"
             className="w-full h-auto"
           />
