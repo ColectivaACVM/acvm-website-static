@@ -24,7 +24,7 @@ export const translations: Record<Language, Record<string, string>> = {
     // Home
     'home.title': 'Asociación Colectiva Valle Machuca',
     'home.subtitle': 'Plataforma de gobernanza y regeneración territorial',
-    'home.value_prop': 'Coordinamos, auditamos y fortalecemos iniciativas colectivas para el bien común y la regeneración socioambiental de la biorregión.',
+    'home.value_prop': 'Articulamos y fortalecemos iniciativas colectivas que impulsan la regeneración socioambiental de la biorregión, promoviendo el bien común.',
     'home.context': 'Valle Machuca enfrenta desafíos de fragmentación territorial, presión ambiental y desconexión entre iniciativas locales. La Asociación Colectiva actúa como una plataforma de gobernanza que integra esfuerzos, redistribuye recursos y promueve la regeneración integral del territorio.',
     'home.umbrella': 'Asociación Colectiva Valle Machuca',
     'home.umbrella_desc': 'Plataforma de gobernanza territorial',
@@ -35,17 +35,17 @@ export const translations: Record<Language, Record<string, string>> = {
     // About
     'about.title': '¿Quiénes somos?',
     'about.intro': 'Somos una entidad colectiva sin fines de lucro, con estructura asociativa y colaborativa, orientada a la gestión y regeneración socioambiental en la biorregión de Valle Machuca.',
-    'about.mission_text': 'Coordinamos, auditamos, captamos recursos, fortalecemos y redistribuimos los esfuerzos del territorio, impulsando iniciativas que promuevan el bien común, la regeneración socioambiental y el fortalecimiento comunitario.',
-    'about.role': 'La Colectiva actúa como una plataforma de gobernanza y gestión territorial, que integra diversas unidades de negocio y proyectos colectivos orientados al desarrollo integral y sostenible de la biorregión.',
+    'about.mission_text': '',
+    'about.role': '',
     
     // Purpose, Vision, Mission
     'pvm.title': 'Propósito · Visión · Misión',
     'pvm.purpose_title': 'Propósito',
-    'pvm.purpose': 'Coordinar y auditar proyectos, captar recursos, fortalecer e impulsar las iniciativas del territorio que promuevan el bien común, la regeneración socioambiental y el fortalecimiento comunitario.',
+    'pvm.purpose': 'Gestionar recursos, coordinar, supervisar proyectos, e impulsar iniciativas territoriales para el bien común y la regeneración socioambiental.',
     'pvm.vision_title': 'Visión',
-    'pvm.vision': 'Una biorregión regenerada, donde la gobernanza territorial integra dimensiones sociales, ambientales, culturales, económicas, espirituales y tecnológicas en armonía con la naturaleza y las comunidades.',
+    'pvm.vision': 'Una biorregión regenerada, con gobernanza integrada, en armonía con la naturaleza y las comunidades.',
     'pvm.mission_title': 'Misión',
-    'pvm.mission': 'Consolidar un modelo de gestión territorial regenerativa que articule la colaboración, la transparencia, la equidad y la autosuficiencia económica entre iniciativas colectivas.',
+    'pvm.mission': 'Consolidar un modelo de gestión territorial regenerativa basado en colaboración, transparencia, equidad y autosuficiencia',
     
     // Organization
     'org.title': '¿Cómo nos organizamos?',
@@ -84,7 +84,7 @@ export const translations: Record<Language, Record<string, string>> = {
     
     // Contact
     'contact.title': '¿Quieres ser parte de la ACVM?',
-    'contact.intro': 'Nos gustaría conocerte. Si te interesa colaborar, invertir o simplemente aprender más sobre nuestro trabajo, contáctanos.',
+    'contact.intro': 'Queremos conocerte. Si te interesa colaborar o sumarte a nuestra iniciativa, te invitamos a llenar el formulario',
     'contact.name': 'Nombre',
     'contact.email': 'Correo electrónico',
     'contact.message': 'Mensaje',
@@ -124,7 +124,7 @@ export const translations: Record<Language, Record<string, string>> = {
     // Home
     'home.title': 'Asociación Colectiva Valle Machuca',
     'home.subtitle': 'Platform for territorial governance and regeneration',
-    'home.value_prop': 'We coordinate, audit, and strengthen collective initiatives for the common good and socio-environmental regeneration of the bioregion.',
+    'home.value_prop': 'We articulate and strengthen collective initiatives that drive socio-environmental regeneration of the bioregion, promoting the common good.',
     'home.context': 'Valle Machuca faces challenges of territorial fragmentation, environmental pressure, and disconnection between local initiatives. The Collective Association acts as a governance platform that integrates efforts, redistributes resources, and promotes comprehensive territorial regeneration.',
     'home.umbrella': 'Asociación Colectiva Valle Machuca',
     'home.umbrella_desc': 'Territorial governance platform',
@@ -135,17 +135,17 @@ export const translations: Record<Language, Record<string, string>> = {
     // About
     'about.title': 'About Us',
     'about.intro': 'We are a non-profit collective entity with an associative and collaborative structure, oriented toward socio-environmental management and regeneration in the Valle Machuca bioregion.',
-    'about.mission_text': 'We coordinate, audit, capture resources, strengthen, and redistribute territorial efforts, driving initiatives that promote the common good, socio-environmental regeneration, and community strengthening.',
-    'about.role': 'The Collective acts as a territorial governance and management platform that integrates diverse business units and collective projects oriented toward the integral and sustainable development of the bioregion.',
+    'about.mission_text': '',
+    'about.role': '',
     
     // Purpose, Vision, Mission
     'pvm.title': 'Purpose · Vision · Mission',
     'pvm.purpose_title': 'Purpose',
-    'pvm.purpose': 'To coordinate and audit projects, capture resources, strengthen and drive territorial initiatives that promote the common good, socio-environmental regeneration, and community strengthening.',
+    'pvm.purpose': 'To manage resources, coordinate, supervise projects, and drive territorial initiatives for the common good and socio-environmental regeneration.',
     'pvm.vision_title': 'Vision',
-    'pvm.vision': 'A regenerated bioregion where territorial governance integrates social, environmental, cultural, economic, spiritual, and technological dimensions in harmony with nature and communities.',
+    'pvm.vision': 'A regenerated bioregion with integrated governance, in harmony with nature and communities.',
     'pvm.mission_title': 'Mission',
-    'pvm.mission': 'To consolidate a model of regenerative territorial management that articulates collaboration, transparency, equity, and economic self-sufficiency among collective initiatives.',
+    'pvm.mission': 'To consolidate a model of regenerative territorial management based on collaboration, transparency, equity, and self-sufficiency',
     
     // Organization
     'org.title': 'How We Organize',
@@ -184,7 +184,7 @@ export const translations: Record<Language, Record<string, string>> = {
     
     // Contact
     'contact.title': 'Want to be part of ACVM?',
-    'contact.intro': 'We\'d love to hear from you. If you\'re interested in collaborating, investing, or simply learning more about our work, get in touch.',
+    'contact.intro': 'We want to know you. If you are interested in collaborating or joining our initiative, we invite you to fill out the form',
     'contact.name': 'Name',
     'contact.email': 'Email',
     'contact.message': 'Message',
