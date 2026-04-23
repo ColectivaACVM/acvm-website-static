@@ -371,7 +371,7 @@ export default function Home() {
           <div className="grid md:grid-cols-3 gap-8 mb-8">
             <div>
               <img
-                src="/images/La-Colectiva-Logo-Nuevo-Curvas_Violeta.webp"
+                src="/images/La-Colectiva-Logo-Nuevo-Curvas.webp"
                 alt={t('footer.brand_title')}
                 className="h-16 w-auto mb-4"
               />
