@@ -20,10 +20,30 @@ export default function Navigation({ onNavigate }: NavigationProps) {
   const handleNavClick = (id: string) => {
     setIsOpen(false);
     onNavigate?.(id);
-    const element = document.getElementById(id);
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
-    }
+
+    // Espera a que cierre el menú y se re-renderice
+    window.requestAnimationFrame(() => {
+      window.requestAnimationFrame(() => {
+        const element = document.getElementById(id);
+        const nav = document.querySelector('nav');
+
+        if (!element) return;
+
+        const navHeight = nav ? nav.getBoundingClientRect().height : 0;
+        const extraOffset = window.innerWidth < 1024 ? 0 : 0;
+
+        const top =
+          element.getBoundingClientRect().top +
+          window.scrollY -
+          navHeight -
+          extraOffset;
+
+        window.scrollTo({
+          top,
+          behavior: 'smooth',
+        });
+      });
+    });
   };
 
   return (
