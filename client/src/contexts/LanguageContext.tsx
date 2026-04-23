@@ -118,7 +118,7 @@ export const translations: Record<Language, Record<string, string>> = {
     'donate.outro_2':
       'Si deseás impulsar este proceso desde su inicio, puedes contribuir aquí.',
     'donate.button': 'Donar ahora',
-    'donate.link': 'https://checkout.stripe.com/TU_LINK_AQUI',
+    'donate.link': 'https://checkout.stripe.com/',
 
     // Contact
     'contact.title': '¿Quieres ser parte de La Colectiva?',
@@ -253,7 +253,7 @@ export const translations: Record<Language, Record<string, string>> = {
     'donate.outro_2':
       'If you would like to support this process from the beginning, you can contribute here.',
     'donate.button': 'Donate now',
-    'donate.link': 'https://checkout.stripe.com/TU_LINK_AQUI',
+    'donate.link': 'https://checkout.stripe.com/',
 
     // Contact
     'contact.title': 'Want to be part of La Colectiva?',
